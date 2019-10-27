@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Window Scope2</title>
+  </head>
+  <body>
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+       function
+       }
+      // Inspect this object in Chrome's dev tools. Notice anything familiar?
+      console.log(window);
+
+      // We can access many properties and methods from this window object
+      console.log(navigator);
+      console.log(window.location.href);
+
+      // Some methods we've already used; we just don't necessarily have to write "window"
+      // window.alert("Hello");
+
+      function firstFunction() {
+        // The window object is global, so it can be read from within any function
+        console.log(window.os);
+      }
+
+      firstFunction();
+
+      function secondFunction(window.os) {
+        // But in this case, our parameter has the same name as a global variable, so it will take priority
+        // Maybe we shouldn't be naming our parameters "window..."
+        console.log(window);
+      }
+      secondFunction("Windows");
+
+// The same rule applies to our own variables
+var operating system = "Windows";
+var location = "East Coast";

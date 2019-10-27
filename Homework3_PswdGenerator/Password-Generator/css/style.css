@@ -1,0 +1,52 @@
+.generator {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+    padding: 20px;
+    width: 100%;
+}
+
+#display {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+input[type=text] {
+    padding: 50px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    
+    
+}
+ #gPassword {
+    background-color:blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 130%;
+    text-decoration-color: white;
+    padding: 3%;
+    
+    
+}
+ #cClipboard {
+     background-color: yellowgreen;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: white;
+     font-size: 130%;
+     text-decoration-color: white;
+     padding: 3%;
+     padding-right: 5%;
+     margin-left: 20%;
+     
+
+ }
+ 
